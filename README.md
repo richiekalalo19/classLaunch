@@ -181,10 +181,10 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
 ## Limitations
 
 * **Linux Compatibility**
-    - Due to my lack of experience with Linux, the program is yet to be validated and tested to work properly in the Operating System.
+    - The program is yet to be validated and tested to work properly in the Operating System.
  
 * **Setup Dependencies**
-    - Due to my lack of experience with Unix and windows scripting languages, the program requires the user to manually install python 3 to run instead of detecting and resolving the dependency automatically.
+    - The program requires the user to manually install python 3 to run instead of detecting and resolving the dependency automatically.
 
 * **Incomplete Testing**
     - Sufficient testing, particularly regarding different types of .plist configurations, is yet to be done as of the current release. (07/01/2023)
@@ -193,4 +193,7 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
     - Optimizations to the code; regarding performance efficiency, readability, and reliability; are yet to be made
     
 * **Windows Launches shell in the background**
+    - Because the program is executed by way of a batch file, instead of a executable application file, which then launches the python interpreter.
+    
+* **Windows Account names with spaces might not be able to use the ```classLaunch.bat``` file**
     - Because the program is executed by way of a batch file, instead of a executable application file, which then launches the python interpreter.
