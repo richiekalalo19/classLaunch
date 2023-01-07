@@ -104,13 +104,14 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
 
    3. In the ```sched.plist``` file:
         - 3.1. Under the root dictionary, define dictionaries with the name Row x (where x is a number);
-            - [x] The program cannot interpret a name without a consecutive predecessor. (e.g. a dictionary named Row 3 cannot be interpreted without one named Row 2.)
+            - [x] The program cannot interpret a name without a consecutive predecessor. (e.g. a dictionary named "Row 3" cannot be interpreted without one named "Row 2".)
 
         - 3.2. Inside each (Row x) dictionary, define a key "Title" with (string) values of the desired day to represent;
 
         - 3.3. Inside each (Row x) dictionary, define a key "Items" with the value of a dictionary with the name of the desired subject; and
 
-        - 3.4. Inside each subject's dictionaries [3.3], Define keys "Class", "Start",  and "End" in order. Enter their values (as strings) of the defined classes for "Class" and time (in 24-hour notation and colon separator - e.g. 14:00) for "Start" and "End".
+        - 3.4. Inside each subject's dictionaries ([3.3]), Define keys "Class", "Start",  and "End" in order. Enter their values (as strings) of the defined classes for "Class" and time for "Start" and "End".
+            - (in 24-hour notation and colon separator - e.g. 14:00.) 
 
    4. Save and close the ```Links.plist``` and ```sched.plist``` files and re-open the application.
         - (If the structure is incorrect, you will have the option of rewriting the default sample (Prompt Yes), editing the file (Prompt No), or exiting the program (Prompt Cancel).)
