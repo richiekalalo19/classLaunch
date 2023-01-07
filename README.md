@@ -191,13 +191,13 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
 * **Incomplete Testing**
     - Sufficient testing, particularly regarding different types of .plist configurations, is yet to be done as of the current release. (07/01/2023)
  
-* **Code Efficiency and readability**
+* **Code Efficiency and Readability**
     - Optimizations to the code; regarding performance efficiency, readability, and reliability; are yet to be made
     
-* **Windows Launches shell in the background**
+* **Windows launches shell in the background**
     - Because the program is executed by way of a batch file, instead of a executable application file, which then launches the python interpreter.
     
-* **Windows Account names with spaces might not be able to use the ```classLaunch.bat``` file**
+* **Windows account names with spaces might not be able to use the ```classLaunch.bat``` file**
     - Because the batch execiutable lacks the functionality to express directory and filename spaces as Windows' path notation.
     - Alternatively, execute the program with:
 
