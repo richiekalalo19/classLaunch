@@ -81,17 +81,17 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
             - [x] [Xcode(macOS only)](https://apps.apple.com/id/app/xcode/id497799835?mt=12)
 
    2. In "Links.plist"
-        2.1. Under the dictionary named "Links", define the classes as keys and their corresponding links as (string) values
-        2.2. Under the dictionary named "Shortcuts", define the desired one-key shortcuts as keys and the classes (keys in [2.1]) they should correspond to as (string) values
+        - 2.1. Under the dictionary named "Links", define the classes as keys and their corresponding links as (string) values
+        - 2.2. Under the dictionary named "Shortcuts", define the desired one-key shortcuts as keys and the classes (keys in [2.1]) they should correspond to as (string) values
 
    3. In "sched.plist"
-        3.1. Under the root dictionary, define dictionaries with the name Row x (where x is a number)
+        - 3.1. Under the root dictionary, define dictionaries with the name Row x (where x is a number)
             - [x] The program cannot interpret a name without a consecutive predecessor (e.g. a dictionary named Row 3 cannot be interpreted without one named Row 2)
-        3.2. Inside each (Row x) dictionary, define a key "Title" with (string) values of the desired day to represent
-        3.3. Inside each (Row x) dictionary, define a key "Items" with the value of a dictionary with the name of the desired subject
-        3.4. Inside each subject's dictionaries ([3.3]), Define keys "Class", "Start",  and "End" in order. Enter their values (as strings) of the defined classes for "Class" and time (in 24-hour notation and colon separator - e.g. 14:00) for "Start" and "End"
+        - 3.2. Inside each (Row x) dictionary, define a key "Title" with (string) values of the desired day to represent
+        - 3.3. Inside each (Row x) dictionary, define a key "Items" with the value of a dictionary with the name of the desired subject
+        - 3.4. Inside each subject's dictionaries ([3.3]), Define keys "Class", "Start",  and "End" in order. Enter their values (as strings) of the defined classes for "Class" and time (in 24-hour notation and colon separator - e.g. 14:00) for "Start" and "End"
    4. Save and close the "Links.plist" and "sched.plist" files and re-open the application
-        4.1. If the structure is incorrect, you will have the option of rewriting the default sample (Prompt Yes), editing the file (Prompt No), or exiting the program (Prompt Cancel)
+        - 4.1. If the structure is incorrect, you will have the option of rewriting the default sample (Prompt Yes), editing the file (Prompt No), or exiting the program (Prompt Cancel)
    5. If any edits were to be required, press {Command/Control + ,} to re-open the .plist files
 
 
