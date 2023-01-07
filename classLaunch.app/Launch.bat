@@ -1,1 +1,0 @@
-python %~dp0Contents\MacOS\Launch.command
