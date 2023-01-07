@@ -93,7 +93,7 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
 
    1. Upon the first start, the program will open the configuration files in a text editor;
         - [x] A plist editor is recommended. Some options are:
-            - [x] [Xplist](https://github.com/ic005k/Xplist)
+            - [x] [Xplist](https://github.com/ic00.k/Xplist)
             - [x] [ProperTree](https://github.com/corpnewt/ProperTree)
             - [x] [Xcode(macOS only)](https://apps.apple.com/id/app/xcode/id497799835?mt=12)
 
@@ -116,7 +116,6 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
         - (If the structure is incorrect, you will have the option of rewriting the default sample (Prompt Yes), editing the file (Prompt No), or exiting the program (Prompt Cancel).)
 
    5. If any edits were to be required, press {Command/Control + ,} to re-open the .plist files.
-
 
 
    - [x] Refer to the built-in samples for examples.
