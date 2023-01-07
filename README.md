@@ -41,12 +41,14 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
    
    - [1] Download the latest release of python 3 [here](https://www.python.org/downloads/)
    - [2] Install according to the setup instructions
+
    - [x] The program will exit upon failure to detect python 3
 
    ### Getting the program
 
-   - [1] Click the green `Code` button, followed by the "Download ZIP" button. (or visit this [link to download](https://github.com/richiekalalo19/classLaunch/archive/refs/heads/main.zip)
+   - [1] Click the green `Code` button, followed by the "Download ZIP" button. (or visit this [link to download](https://github.com/richiekalalo19/classLaunch/archive/refs/heads/main.zip))
    - [2] Proceed by unzipping the file
+
    - [x] Alternatively, clone the repo via Git from the command prompt or terminal
          ```
          git clone https://github.com/richiekalalo19/classLaunch
@@ -83,6 +85,7 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
         - [4] Save and close the "Links.plist" and "sched.plist" files and re-open the application
             - [4.1] If the structure is incorrect, you will have the option of rewriting the default sample (Prompt Yes), editing the file (Prompt No), or exiting the program (Prompt Cancel)
         - [5] If any edits were to be required, press {Command/Control + ,} to re-open the .plist files
+
         - [x] Refer to the built-in samples for examples
             - [x] classLaunch.app(macOS: Right Click -> Show Package Contents) [>] Contents [>] Configuration [>] Samples
         - [x] Modifying, or copy-pasting if more is required, the desired entries are advisable
