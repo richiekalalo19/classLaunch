@@ -4,58 +4,51 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
 
 ## Features
 
-- [x] Supports macOS and Windows *(compatible with python 3.x and Tkinter 8.6+)*
+- [x] Supports macOS and Windows. *(compatible with python 3.x and Tkinter 8.6+)*
 
 - [x] Separation of Subjects, Classes, and Links:
-    - [x] Different instances of a subject name may link to different classes if desired
+    - [x] Different instances of a subject name may link to different classes if desired.
 
-    - [x] Links are unique to every class
+    - [x] Links are unique to every class.
     
 - [x] Customizable:
     - [x] Customizable Grid Schedule
+        - [x] Customizable quantity of rows and columns.
 
-        - [x] Customizable quantity of rows and columns
-
-        - [x] Supports an inconsistent number of columns
-
-            - [x] (eg. different number of subjects every day)
+        - [x] Supports an inconsistent number of columns.
+            - [x] (e.g. different number of subjects every day.)
 
     - [x] Customizable Grid Row Names
+        - [x] (Time automation can only be done with days of the week as row labels.)
 
-        - [x] (Time automation can only be done with days of the week as row labels)
-
-        - [x] (Rows Times will only display if the times are consistent for every entry)
+        - [x] (Rows Times will only display if the times are consistent for every entry.)
         
 - [x] Status:
     - [x] Status Bar
+        - [x] Displays the current time.
 
-        - [x] Displays the current time
+        - [x] Displays current and upcoming subjects, class/rooms, start times, and end times.
 
-        - [x] Displays current and upcoming subjects, class/rooms, start times, and end times
+        - [x] Updates every minute based on the OS clock.
 
-        - [x] Updates every minute based on the OS clock
+    - [x] {Space} [>] Highlights current subject. (Shades Button)
 
-    - [x] {Space} [>] Highlights current subject(Shades Button)
-
-    - [x] {Space + Space} [>] Highlights upcoming subject(Shades text)
+    - [x] {Space + Space} [>] Highlights upcoming subject. (Shades text)
     
 - [x] Launching Applications:
+    - [x] Clicking the subject to be launched on the schedule table.
 
-    - [x] Clicking the subject to be launched on the schedule table
-
-    - [x] Using assigned one-key shortcuts for each class
+    - [x] Using assigned one-key shortcuts for each class.
 
     - [x] Time Based
+        - [x] {Enter/Return} [>] Highlights (Shades Button) and Launches the set class for the current time.
 
-        - [x] {Enter/Return} [>] Highlights(Shades Button) and Launches the set class for the current time
-
-        - [x] {Control/Command + Enter/Return} [>] Highlights(Shades text) and Launches the set upcoming class based on the current time
+        - [x] {Control/Command + Enter/Return} [>] Highlights (Shades text) and Launches the set upcoming class based on the current time.
         
-- [x] Direct Modification of Configuration Files
-
+- [x] ExternalConfiguration Files
     - [x] classLaunch.app(macOS: Right Click -> Show Package Contents) [>] Contents [>] Configuration
 
-    - [x] Filenames of configuration files must be "Links.plist" and "sched.plist"
+    - [x] Filenames of configuration files must be "Links.plist" and "sched.plist".
 
 ***
 
@@ -63,42 +56,42 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
 
    ### Getting python
    
-   1. Download the latest release of python 3 [here](https://www.python.org/downloads/)
-   2. Install according to the setup instructions
-   
-        - [x] The program will exit upon failure to detect python 3
+   1. Download the latest release of python 3 [here](https://www.python.org/downloads/); and
+   2. Install according to the setup instructions.
+        - [x] The program will exit upon failure to detect python 3.
 
    ### Getting the program
 
-   1.  Click the green `Code` button, followed by the "Download ZIP" button. (or visit this [link to download](https://github.com/richiekalalo19/classLaunch/archive/refs/heads/main.zip))
+   1. Click the green `Code` button, followed by the "Download ZIP" button (or visit this [link to download](https://github.com/richiekalalo19/classLaunch/archive/refs/heads/main.zip)); 
  
-   2. Proceed by unzipping the file
+   2. Proceed by unzipping the file.
+    
+    - Alternatively, clone the repo via Git from the command prompt or terminal; and 
+         ```
+         git clone https://github.com/richiekalalo19/classLaunch
+         ```
 
-        - Alternatively, clone the repo via Git from the command prompt or terminal
-             ```
-             git clone https://github.com/richiekalalo19/classLaunch
-             ```
+   #### On macOS:
+        3. Move classLaunch.app application from the downloaded folder to the Applications folder (or the desired location).
+        
+   #### On Windows:
+        3. Move classLaunch.app folder from the downloaded folder to the desired location.
 
+   
    ### Starting the program
     
    #### On macOS:
         
-   1. Move classLaunch.app application from the downloaded folder to the Applications folder (or the desired location)
-
-   2. Double-click to start the program
+            Double-click the "classLaunch" application to start the program.
         
    #### On Windows:
         
-   1. Move classLaunch.app folder from the downloaded folder to the desired location
-
-   2. Run classLaunch.bat to start the program
+            Run "classLaunch.bat" inside the "classLaunch.app" folder to start the program.
 
    ### Supplying Data
 
    1. Upon the first start, the program will open the configuration files in a text editor
-
         - [x] A plist editor is recommended. Some options are:
-
             - [x] [Xplist](https://github.com/ic005k/Xplist)
             - [x] [ProperTree](https://github.com/corpnewt/ProperTree)
             - [x] [Xcode(macOS only)](https://apps.apple.com/id/app/xcode/id497799835?mt=12)
@@ -110,7 +103,6 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
 
    3. In "sched.plist"
         - 3.1. Under the root dictionary, define dictionaries with the name Row x (where x is a number)
-
             - [x] The program cannot interpret a name without a consecutive predecessor (e.g. a dictionary named Row 3 cannot be interpreted without one named Row 2)
 
         - 3.2. Inside each (Row x) dictionary, define a key "Title" with (string) values of the desired day to represent
@@ -120,17 +112,16 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
         - 3.4. Inside each subject's dictionaries ([3.3]), Define keys "Class", "Start",  and "End" in order. Enter their values (as strings) of the defined classes for "Class" and time (in 24-hour notation and colon separator - e.g. 14:00) for "Start" and "End"
 
    4. Save and close the "Links.plist" and "sched.plist" files and re-open the application
-
         - 4.1. If the structure is incorrect, you will have the option of rewriting the default sample (Prompt Yes), editing the file (Prompt No), or exiting the program (Prompt Cancel)
 
    5. If any edits were to be required, press {Command/Control + ,} to re-open the .plist files
 
 
-       - [x] Refer to the built-in samples for examples
-            - [x] classLaunch.app(macOS: Right Click -> Show Package Contents) [>] Contents [>] Configuration [>] Samples
-       - [x] Modifying, or copy-pasting if more is required, the desired entries are advisable
-       - [x] Please do not alter the root structure of the dictionary, each row element([3.2]-[3.3]), or each Item element ([3.4]-[3.5])
-           - [x] (e.g. adding new elements or removing "Links" and "Shortcuts" dictionaries in "Links.plist")   
+   - [x] Refer to the built-in samples for examples
+        - [x] classLaunch.app(macOS: Right Click -> Show Package Contents) [>] Contents [>] Configuration [>] Samples
+   - [x] Modifying, or copy-pasting if more is required, the desired entries are advisable
+   - [x] Please do not alter the root structure of the dictionary, each row element([3.2]-[3.3]), or each Item element ([3.4]-[3.5])
+       - [x] (e.g. adding new elements or removing "Links" and "Shortcuts" dictionaries in "Links.plist")   
         
    ### Example .plist data files structure:
         
