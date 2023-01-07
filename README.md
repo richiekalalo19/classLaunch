@@ -118,6 +118,7 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
    5. If any edits were to be required, press {Command/Control + ,} to re-open the .plist files.
 
 
+
    - [x] Refer to the built-in samples for examples.
         - [x] classLaunch.app(macOS: Right Click -> Show Package Contents) [>] Contents [>] Configuration [>] Samples
 
