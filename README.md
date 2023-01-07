@@ -8,34 +8,53 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
 
 - [x] Separation of Subjects, Classes, and Links:
     - [x] Different instances of a subject name may link to different classes if desired
+
     - [x] Links are unique to every class
     
 - [x] Customizable:
     - [x] Customizable Grid Schedule
+
         - [x] Customizable quantity of rows and columns
+
         - [x] Supports an inconsistent number of columns
+
             - [x] (eg. different number of subjects every day)
+
     - [x] Customizable Grid Row Names
+
         - [x] (Time automation can only be done with days of the week as row labels)
+
         - [x] (Rows Times will only display if the times are consistent for every entry)
         
 - [x] Status:
     - [x] Status Bar
+
         - [x] Displays the current time
+
         - [x] Displays current and upcoming subjects, class/rooms, start times, and end times
+
         - [x] Updates every minute based on the OS clock
+
     - [x] {Space} [>] Highlights current subject(Shades Button)
+
     - [x] {Space + Space} [>] Highlights upcoming subject(Shades text)
     
 - [x] Launching Applications:
+
     - [x] Clicking the subject to be launched on the schedule table
+
     - [x] Using assigned one-key shortcuts for each class
+
     - [x] Time Based
+
         - [x] {Enter/Return} [>] Highlights(Shades Button) and Launches the set class for the current time
+
         - [x] {Control/Command + Enter/Return} [>] Highlights(Shades text) and Launches the set upcoming class based on the current time
         
 - [x] Direct Modification of Configuration Files
+
     - [x] classLaunch.app(macOS: Right Click -> Show Package Contents) [>] Contents [>] Configuration
+
     - [x] Filenames of configuration files must be "Links.plist" and "sched.plist"
 
 ***
