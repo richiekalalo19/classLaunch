@@ -114,7 +114,7 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
             - (in 24-hour notation and colon separator - e.g. 14:00.) 
 
    4. Save and close the ```Links.plist``` and ```sched.plist``` files and re-open the application.
-        - (If the structure is incorrect, you will have the option of rewriting the default sample (Prompt Yes), editing the file (Prompt No), or exiting the program (Prompt Cancel).)
+        - (If the any of the file's structure is incorrect, you will have the option of rewriting the default sample (Prompt Yes), editing the file (Prompt No), or exiting the program (Prompt Cancel) .)
 
    5. If any edits were to be required, press {Command/Control + ,} to re-open the .plist files.
 
