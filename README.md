@@ -197,7 +197,7 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
 * **Windows launches a shell window in the background.**
     - Because the program is executed by way of a batch file, instead of a executable application file, which then launches the python interpreter.
     
-* **Windows account names with spaces might not be able to use the ```classLaunch.bat``` file.**
+* **Windows account names with spaces might not be able to use the ```classLaunch.bat``` executable.**
     - Because the batch execiutable lacks the functionality to express directory and filename spaces as Windows' path notation.
     - Alternatively, execute the program with:
 
