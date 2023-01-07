@@ -131,16 +131,15 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
                     └── "C" : "Class C"
             ```
 
-
+***
 
 ## Contributing
 
         #### The python script is located under:
-            ***
             - [x] classLaunch.app(macOS: Right Click -> Show Package Contents) [>] Contents [>] MacOS [>] classLaunch.command
-            ***
             - [x] Open the file in a suitable text editor (Set syntax to Python if necessary)
 
+***
 
 ## Limitations
 
