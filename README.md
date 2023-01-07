@@ -37,40 +37,40 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
 
 ## Installation
 
-    ### Getting python
-    
-        - [1] Download the latest release of python 3 [here](https://www.python.org/downloads/)
-        - [2] Install according to the setup instructions
-        - [x] The program will exit upon failure to detect python 3
+   ### Getting python
+   
+   - [1] Download the latest release of python 3 [here](https://www.python.org/downloads/)
+   - [2] Install according to the setup instructions
+   - [x] The program will exit upon failure to detect python 3
 
-    ### Getting the program
+   ### Getting the program
 
-        - [1] Click the green `Code` button, followed by the "Download ZIP" button. (or visit this [link to download](https://github.com/richiekalalo19/classLaunch/archive/refs/heads/main.zip)
-        - [2] Proceed by unzipping the file
-        - [x] Alternatively, clone the repo via Git from the command prompt or terminal
-            ```
-            git clone https://github.com/richiekalalo19/classLaunch
-            ```
+   - [1] Click the green `Code` button, followed by the "Download ZIP" button. (or visit this [link to download](https://github.com/richiekalalo19/classLaunch/archive/refs/heads/main.zip)
+   - [2] Proceed by unzipping the file
+   - [x] Alternatively, clone the repo via Git from the command prompt or terminal
+         ```
+         git clone https://github.com/richiekalalo19/classLaunch
+         ```
             
-    ### Starting the program
+   ### Starting the program
     
-        #### On macOS:
+   #### On macOS:
         
-            - [1] Move classLaunch.app application from the downloaded folder to the Applications folder (or the desired location)
-            - [2] Double-click to start the program
+   - [1] Move classLaunch.app application from the downloaded folder to the Applications folder (or the desired location)
+   - [2] Double-click to start the program
         
-        #### On Windows:
+   #### On Windows:
         
-            - [1] Move classLaunch.app folder from the downloaded folder to the desired location
-            - [2] Run classLaunch.bat to start the program
+   - [1] Move classLaunch.app folder from the downloaded folder to the desired location
+   - [2] Run classLaunch.bat to start the program
 
-    ### Supplying Data
+   ### Supplying Data
 
-        - [1] Upon the first start, the program will open the configuration files in a text editor
-            - [x] A plist editor is recommended. Some options are:
-                - [x] [Xplist](https://github.com/ic005k/Xplist)
-                - [x] [ProperTree](https://github.com/corpnewt/ProperTree)
-                - [x] [Xcode(macOS only)](https://apps.apple.com/id/app/xcode/id497799835?mt=12)
+   - [1] Upon the first start, the program will open the configuration files in a text editor
+        - [x] A plist editor is recommended. Some options are:
+            - [x] [Xplist](https://github.com/ic005k/Xplist)
+            - [x] [ProperTree](https://github.com/corpnewt/ProperTree)
+            - [x] [Xcode(macOS only)](https://apps.apple.com/id/app/xcode/id497799835?mt=12)
         - [2] In "Links.plist"
             - [2.1] Under the dictionary named "Links", define the classes as keys and their corresponding links as (string) values
             - [2.2] Under the dictionary named "Shortcuts", define the desired one-key shortcuts as keys and the classes (keys in [2.1]) they should correspond to as (string) values
@@ -89,55 +89,53 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
         - [x] Please do not alter the root structure of the dictionary, each row element([3.2]-[3.3]), or each Item element ([3.4]-[3.5])
             - [x] (e.g. adding new elements or removing "Links" and "Shortcuts" dictionaries in "Links.plist")   
         
-    ### Example .plist data files structure:
+   ### Example .plist data files structure:
         
-        #### Example .plist data files structure:
-        
-            - [x] String values are represented as "
-            - [x] Dictionaries key-value pairs are designated by key : value
-        
-            ```
-            ├── sched.plist (file root)
-            │   ├── "Row 1" :
-            │   │   ├── "Title" : "Monday"
-            │   │   └── "Items" :
-            |   │       ├── "English" :
-            |   │       │   ├── Class   : "Class A"
-            |   │       │   ├── Start   : "07:00"
-            |   │       │   └── End     : "08:00"
-            |   │       └── "Maths" :
-            |   │           ├── Class   : "Class B"
-            |   │           ├── Start   : "09:00"
-            |   │           └── End     : "10:00
-            │   └── "Row 2" :
-            │       ├── "Title" : "Tuesday"
-            │       └── "Items" :
-            |           ├── "Subject 3" :
-            |           │   ├── Class"  : "Class A"
-            |           │   ├── Start   : "07:00"
-            |           │   └── End     : "08:00"
-            |           └── "Subject 6" :
-            |               ├── "Class  : "Class C"
-            |               ├── "Start" : "09:00"
-            |               └── "End"   : "10:00"
-            └── Links.plist (file root)
-                ├── "Links" :
-                │   ├── "Class A"     : "https://us02web.zoom.us/j/8709873867?pwd=WUtHbmp0QS9tOWlaVitJU0I2VjhFUT09"
-                │   ├── "Class B"     : "https://us02web.zoom.us/j/8709873867?pwd=WUtHbmp0QS9tOWlaVitJU0I2VjhFUT09"
-                │   └── "Class C"     : "https://us02web.zoom.us/j/8709873867?pwd=WUtHbmp0QS9tOWlaVitJU0I2VjhFUT09"
-                └── "Shortcuts" :
-                    ├── "A" : "Class A"
-                    ├── "B" : "Class B"
-                    └── "C" : "Class C"
-            ```
+   - [x] String values are represented as "
+   - [x] Dictionaries key-value pairs are designated by key : value
+   
+        ```
+        ├── sched.plist (file root)
+        │   ├── "Row 1" :
+        │   │   ├── "Title" : "Monday"
+        │   │   └── "Items" :
+        |   │       ├── "English" :
+        |   │       │   ├── Class   : "Class A"
+        |   │       │   ├── Start   : "07:00"
+        |   │       │   └── End     : "08:00"
+        |   │       └── "Maths" :
+        |   │           ├── Class   : "Class B"
+        |   │           ├── Start   : "09:00"
+        |   │           └── End     : "10:00
+        │   └── "Row 2" :
+        │       ├── "Title" : "Tuesday"
+        │       └── "Items" :
+        |           ├── "Subject 3" :
+        |           │   ├── Class"  : "Class A"
+        |           │   ├── Start   : "07:00"
+        |           │   └── End     : "08:00"
+        |           └── "Subject 6" :
+        |               ├── "Class  : "Class C"
+        |               ├── "Start" : "09:00"
+        |               └── "End"   : "10:00"
+        └── Links.plist (file root)
+            ├── "Links" :
+            │   ├── "Class A"     : "https://us02web.zoom.us/j/8709873867?pwd=WUtHbmp0QS9tOWlaVitJU0I2VjhFUT09"
+            │   ├── "Class B"     : "https://us02web.zoom.us/j/8709873867?pwd=WUtHbmp0QS9tOWlaVitJU0I2VjhFUT09"
+            │   └── "Class C"     : "https://us02web.zoom.us/j/8709873867?pwd=WUtHbmp0QS9tOWlaVitJU0I2VjhFUT09"
+            └── "Shortcuts" :
+                ├── "A" : "Class A"
+                ├── "B" : "Class B"
+                └── "C" : "Class C"
+        ```
 
 ***
 
 ## Contributing
 
-        #### The python script is located under:
-            - [x] classLaunch.app(macOS: Right Click -> Show Package Contents) [>] Contents [>] MacOS [>] classLaunch.command
-            - [x] Open the file in a suitable text editor (Set syntax to Python if necessary)
+   ### The python script is located under:
+   - [x] classLaunch.app(macOS: Right Click -> Show Package Contents) [>] Contents [>] MacOS [>] classLaunch.command
+   - [x] Open the file in a suitable text editor (Set syntax to Python if necessary)
 
 ***
 
