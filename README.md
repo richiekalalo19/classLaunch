@@ -124,7 +124,7 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
 
    - [x] Modifying, or copy-pasting if more is required, the desired entries are advisable.
 
-   - [x] Please do not alter the root structure of the dictionary, each row element([3.2]-[3.3]), or each Item element ([3.4]-[3.5).
+   - [x] Please do not alter the root structure of the dictionary, each row element ([3.2]-[3.3]), or each Item element ([3.4]-[3.5).
        - [x] (e.g. adding new elements or removing ```Links``` and ```Shortcuts``` dictionaries in ```Links.plist```.)
         
    ### Example .plist data files structure:
