@@ -58,6 +58,7 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
    
    1. Download the latest release of python 3 [here](https://www.python.org/downloads/); and
    2. Install according to the setup instructions.
+
         - [x] The program will exit upon failure to detect python 3.
 
    ### Getting the program
@@ -72,10 +73,10 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
          ```
 
    #### On macOS:
-        3. Move classLaunch.app application from the downloaded folder to the Applications folder (or the desired location).
+   3. Move classLaunch.app application from the downloaded folder to the Applications folder (or the desired location).
         
    #### On Windows:
-        3. Move classLaunch.app folder from the downloaded folder to the desired location.
+   3. Move classLaunch.app folder from the downloaded folder to the desired location.
 
    
    ### Starting the program
