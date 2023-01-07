@@ -42,17 +42,19 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
    - [1] Download the latest release of python 3 [here](https://www.python.org/downloads/)
    - [2] Install according to the setup instructions
 
-   - [x] The program will exit upon failure to detect python 3
+
+        - [x] The program will exit upon failure to detect python 3
 
    ### Getting the program
 
    - [1] Click the green `Code` button, followed by the "Download ZIP" button. (or visit this [link to download](https://github.com/richiekalalo19/classLaunch/archive/refs/heads/main.zip))
    - [2] Proceed by unzipping the file
 
-   - [x] Alternatively, clone the repo via Git from the command prompt or terminal
-         ```
-         git clone https://github.com/richiekalalo19/classLaunch
-         ```
+
+        - [x] Alternatively, clone the repo via Git from the command prompt or terminal
+             ```
+             git clone https://github.com/richiekalalo19/classLaunch
+             ```
             
    ### Starting the program
     
@@ -131,8 +133,6 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
                 ├── "B" : "Class B"
                 └── "C" : "Class C"
         ```
-
-***
 
 ## Contributing
 
