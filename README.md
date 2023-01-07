@@ -71,14 +71,14 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
    ### Getting the program
 
    1.  Click the green `Code` button, followed by the "Download ZIP" button. (or visit this [link to download](https://github.com/richiekalalo19/classLaunch/archive/refs/heads/main.zip))
+ 
    2. Proceed by unzipping the file
 
+        - Alternatively, clone the repo via Git from the command prompt or terminal
+         ```
+         git clone https://github.com/richiekalalo19/classLaunch
+         ```
 
-        - [x] Alternatively, clone the repo via Git from the command prompt or terminal
-             ```
-             git clone https://github.com/richiekalalo19/classLaunch
-             ```
-            
    ### Starting the program
     
    #### On macOS:
