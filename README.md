@@ -190,3 +190,6 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
  
 * **Code Efficiency and readability**
     Optimizations to the code; regarding performance efficiency, readability, and reliability; are yet to be made
+    
+* **Windows Launches shell in the background**
+    Because the program is executed by way of a batch file, instead of a executable application file, which then launches the python interpreter.
