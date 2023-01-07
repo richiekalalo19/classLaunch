@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Links</key>
+	<dict>
+		<key>EL2</key>
+		<string>https://us02web.zoom.us/j/8709873867?pwd=WUtHbmp0QS9tOWlaVitJU0I2VjhFUT09</string>
+		<key>EL8</key>
+		<string>https://us02web.zoom.us/j/3247244098?pwd=d3V5ay9XVXNMQXRBbTAyUWlNMytTQT09</string>
+		<key>11B</key>
+		<string>https://us02web.zoom.us/j/5087542387?pwd=dHhKMjNHSHhyTUgzcTJEMDNVRE56dz09</string>
+		<key>11D</key>
+		<string>https://us02web.zoom.us/j/8750020710?pwd=djhNMWF2UGpGM1p1OG45YkU5L1c3dz09</string>
+		<key>11E</key>
+		<string>https://us02web.zoom.us/j/3638858469?pwd=NlYyYjVWekMyM0RJWG5qNm5TMXBzdz09</string>
+	</dict>
+	<key>Shortcuts</key>
+	<dict>
+		<key>2</key>
+		<string>EL2</string>
+		<key>8</key>
+		<string>EL8</string>
+		<key>b</key>
+		<string>11B</string>
+		<key>d</key>
+		<string>11D</string>
+		<key>e</key>
+		<string>11E</string>
+	</dict>
+</dict>
+</plist>
