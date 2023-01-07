@@ -144,17 +144,17 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
 
 * **Linux Compatibility**
 
-  Due to my lack of experience with Linux, the program is yet to be validated and tested to work properly in the Operating System.
+    Due to my lack of experience with Linux, the program is yet to be validated and tested to work properly in the Operating System.
  
 * **Setup Dependencies**
 
-  Due to my lack of experience with Unix and windows scripting languages, the program requires the user to manually install python 3 to run instead of detecting and resolving the dependency automatically
+    Due to my lack of experience with Unix and windows scripting languages, the program requires the user to manually install python 3 to run instead of detecting and resolving the dependency automatically
  
 * **Incomplete Testing**
 
- Sufficient testing, particularly regarding different types of .plist configurations, is yet to be done as of the current release (07/01/2023)
+    Sufficient testing, particularly regarding different types of .plist configurations, is yet to be done as of the current release (07/01/2023)
  
 * **Code Efficiency and readability**
 
- Optimizations to the code; in regard to performance efficiency, readability, and reliability; are yet to be made
+    Optimizations to the code; in regard to performance efficiency, readability, and reliability; are yet to be made
 
