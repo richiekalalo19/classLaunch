@@ -39,10 +39,9 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
 
    ### Getting python
    
-   - [1] Download the latest release of python 3 [here](https://www.python.org/downloads/)
-   - [2] Install according to the setup instructions
-
-
+   1. Download the latest release of python 3 [here](https://www.python.org/downloads/)
+   2. Install according to the setup instructions
+   
         - [x] The program will exit upon failure to detect python 3
 
    ### Getting the program
