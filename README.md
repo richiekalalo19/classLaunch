@@ -30,6 +30,8 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
         - [x] Displays current and upcoming subjects, class/rooms, start times, and end times.
 
         - [x] Updates every minute based on the OS clock.
+        
+        - [x] Will not dispplay when the current day does not have correspondance in the set schedule.
 
     - [x] {Space} [>] Highlights current subject. (Shades Button)
 
