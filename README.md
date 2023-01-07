@@ -197,7 +197,8 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
     
 * **Windows Account names with spaces might not be able to use the ```classLaunch.bat``` file**
     - Because the batch execiutable lacks the functionality to express directory and filename spaces as Windows' path notation.
-    - Alternatively, execute the program with 
+    - Alternatively, execute the program with:
+
         ```
         python <Path to classLaunch.app>\Contents\MacOS\Launch.command
         ```
