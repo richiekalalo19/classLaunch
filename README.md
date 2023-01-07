@@ -117,9 +117,12 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
 
    5. If any edits were to be required, press {Command/Control + ,} to re-open the .plist files.
 
+
    - [x] Refer to the built-in samples for examples.
         - [x] classLaunch.app(macOS: Right Click -> Show Package Contents) [>] Contents [>] Configuration [>] Samples
+
    - [x] Modifying, or copy-pasting if more is required, the desired entries are advisable.
+
    - [x] Please do not alter the root structure of the dictionary, each row element([3.2]-[3.3]), or each Item element ([3.4]-[3.5]).
        - [x] (e.g. adding new elements or removing "Links" and "Shortcuts" dictionaries in "Links.plist".)
         
