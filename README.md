@@ -45,7 +45,7 @@ classLaunch is a cross-platform GUI schedule manager, automation tool, and launc
 
         - [x] {Control/Command + Enter/Return} [>] Highlights (Shades text) and Launches the set upcoming class based on the current time.
         
-- [x] ExternalConfiguration Files
+- [x] External Configuration Files
     - [x] classLaunch.app(macOS: Right Click -> Show Package Contents) [>] Contents [>] Configuration
 
     - [x] Filenames of configuration files must be "Links.plist" and "sched.plist".
